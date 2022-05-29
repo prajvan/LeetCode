@@ -12,7 +12,6 @@ class Solution:
             itr = itr.next
         rval = 0
         itr = head
-        print(length)
         length = length-1
         while (itr.next is not None):
             rval = rval + itr.val*pow(2,length)
