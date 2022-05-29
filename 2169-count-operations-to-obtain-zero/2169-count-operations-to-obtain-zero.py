@@ -9,15 +9,12 @@ class Solution:
             b,s=num2,num1
         else:
             b,s=num1,num2
-        print(b,s)
         bflag = True
         while(bflag):
             if b-s > s :
                 b,s = b-s,s
             else:
                 b,s = s,b-s
-                
-            print(b,s)
             if (b-s==0 or s==0 or b==0):
                 bflag=False
             steps = steps+1
