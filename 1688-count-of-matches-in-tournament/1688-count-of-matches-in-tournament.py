@@ -1,7 +1,7 @@
 class Solution:
     def numberOfMatches(self, n: int) -> int:
         return n-1
-        if n==1:
+        '''if n==1:
             return 0
         if n==2:
             return 1
@@ -15,7 +15,7 @@ class Solution:
                 n = 1+((n-1)//2)
         if n==2:
             return matches+1
-        return matches
+        return matches'''
         
             
             
