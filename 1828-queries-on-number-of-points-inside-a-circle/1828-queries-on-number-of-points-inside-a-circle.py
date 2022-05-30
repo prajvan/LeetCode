@@ -4,9 +4,10 @@ class Solution:
         for query in queries:
             x,y,r = query
             inside_points = 0
+            r=r*r
             for point in points:
                 x1,y1 = point
-                if (x-x1)*(x-x1)+(y-y1)*(y-y1)<= r*r:
+                if (x-x1)*(x-x1)+(y-y1)*(y-y1)<= r:
                     inside_points+=1
             rlist.append(inside_points)
         return rlist
