@@ -4,7 +4,7 @@ class Solution:
             return False
         i,x = 2,n//2
         ct = 0
-        while(i <= x):
+        while(i <= x ):
             if n%i == 0:
                 ct += 1
             i += 1
