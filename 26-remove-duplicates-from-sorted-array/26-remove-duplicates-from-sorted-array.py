@@ -9,8 +9,6 @@ class Solution:
                 prev = prev+1
                 srt = nums[curr]
                 nums[prev] = srt
-                print(prev,curr)
                 curr+=1
-        print(nums)
         return prev+1
         
